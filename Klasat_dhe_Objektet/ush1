@@ -24,9 +24,14 @@ class Liber{
 int main(){
    Liber  l;    //deklarimi i objektit
    l.vendosVlerat("Nate","Ameila",2023);   //pastaj e pershtatim me funksionet.Do te ishte gabim dicka e tille:  Liber l.vendosVlerat("A","b",2022);//ERROR!
-   l.afisho(); //Edhe pse nuk kemi parametra kllapat te metodat jane gjithone,ndersa konstruktori pa parametra nuk e ka te nevojshme perdorimin e ().
-
-
-
+   l.afisho();         //Edhe pse nuk kemi parametra kllapat te metodat jane gjithone,ndersa konstruktori pa parametra nuk e ka te nevojshme perdorimin e ().
 return 0;
 }
+
+
+/*
+PROGRAMI DO TE AFISHOJE:
+Titulli Nate
+Autori Ameila
+Viti 2023
+*/
