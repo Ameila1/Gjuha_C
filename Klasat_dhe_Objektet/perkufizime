@@ -1,1 +1,6 @@
-
+POO-Programim i orjentuar ne objekte,per te punuar me kete term do marim disa koncepte si:klasa,variablat e instances,konstruktori etj;
+KLASA-percakton antaret e nje objekti.          (Klasa nuk krijon objekt,dhe variablat e instances nuk inicializohen ne momentin e deklarimit);
+VARIABLAT E INSTANCES-quhen antaret e klases.   (Variablat e instances ne pergjidhesi aksesohen si private);
+METODAT-jane funksione brenda klases.           (Metodat ne pergjithesi aksesohen si public);
+KONSTRUKTORI-inicializon variablat e instances. (por ky inicializim behet edhe direkt me nje funksion vendosVlerat();)!!MUND TE PERDORIM ME SHUME SE NJE KONSTRUKTOR
+                                                dhe pogrami ekzekutohet pa e pasur te nevojshme perdorimin e nje konstruktori.(sHIKO.USH1)
