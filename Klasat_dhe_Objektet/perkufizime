@@ -4,3 +4,6 @@ VARIABLAT E INSTANCES-quhen antaret e klases.   (Variablat e instances ne pergji
 METODAT-jane funksione brenda klases.           (Metodat ne pergjithesi aksesohen si public);
 KONSTRUKTORI-inicializon variablat e instances. (por ky inicializim behet edhe direkt me nje funksion vendosVlerat();)!!MUND TE PERDORIM ME SHUME SE NJE KONSTRUKTOR
                                                 dhe pogrami ekzekutohet pa e pasur te nevojshme perdorimin e nje konstruktori.(sHIKO.USH1)
+METODA KTHE_DICKA-është një metodë që kthen vlerën e atributit "DICKA" në objektin aktual të klases Liber.
+Ky lloj metode është i dobishëm kur dëshironi të merrni vlerën e një atributi nga objekti në programin tuaj.
+Kthimi nenkupton qe vlera e ketyre vaiablave mund te perdoret nga programi edhe jashte klases.
