@@ -1,1 +1,32 @@
+#include <string>
+#include <iostream>
+using namespace std;
 
+class Liber{
+	private:
+	string titulli;
+	string autori;
+	int viti;
+	public:  //funksionet me poshte do te perdoren dhe jashte klases.
+//metode qe sherben per inicializim.     (po luan rolin e konstruktorit)
+	void vendosVlerat(string t,string a,int v){
+		titulli=t;
+		autori=a;
+		viti=v;
+	}	
+	void afisho(){
+		cout<<"Titulli "<<titulli<<endl;
+		cout<<"Autori "<<autori<<endl;
+		cout<<"Viti "<<viti<<endl;		
+	}
+};
+
+int main(){
+   Liber  l;    //deklarimi i objektit
+   l.vendosVlerat("Nate","Ameila",2023);   //pastaj e pershtatim me funksionet.Do te ishte gabim dicka e tille:  Liber l.vendosVlerat("A","b",2022);//ERROR!
+   l.afisho(); //Edhe pse nuk kemi parametra kllapat te metodat jane gjithone,ndersa konstruktori pa parametra nuk e ka te nevojshme perdorimin e ().
+
+
+
+return 0;
+}
