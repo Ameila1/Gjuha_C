@@ -7,3 +7,9 @@ KONSTRUKTORI-inicializon variablat e instances. (por ky inicializim behet edhe d
 METODA KTHE_DICKA-është një metodë që kthen vlerën e atributit "DICKA" në objektin aktual të klases Liber.
 Ky lloj metode është i dobishëm kur dëshironi të merrni vlerën e një atributi nga objekti në programin tuaj.
 Kthimi nenkupton qe vlera e ketyre vaiablave mund te perdoret nga programi edhe jashte klases.
+Liber l;
+    l.vendosVlerat("Nate", "Ameila", 2023);
+    // Përdorimi i metodes ktheVitin për të marrë dhe shtypur vlerën e vitit
+    int vit = l.ktheVitin();     //e ruajme te main-i qe te mund ta afishojme dhe te puojme vetem me te nese do te na duhej.
+    //ERROR!  li.viti=1221;  //VARIABLAT E INSTANCES JANE PRIVATE NUK MUND TE AKSESOHEN NGA KETU.
+    cout << "Viti nga metoda ktheVitin: " << vit << endl;
